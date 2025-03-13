@@ -4,7 +4,7 @@
 The analysis will involve prioritizing hypotheses, calculating statistical significance, and visualizing key metrics such as conversion rates, average order size, and revenue. The project aims to derive data-driven insights that will help the marketing team decide on the next steps in optimizing the online store's performance.
 
 
-## **Dataset:**  
+## **Datasets:**  
 /datasets/hypotheses_us.csv 
 - Hypotheses — brief descriptions of the hypotheses
 - Reach — user reach, on a scale of one to ten
