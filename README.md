@@ -29,6 +29,7 @@ The analysis will involve prioritizing hypotheses, calculating statistical signi
 - Python (pandas, numpy, scipy, matplotlib)  
 - Exploratory Data Analysis (EDA)
 - ICE/RICE methods
+- conversion rate, statistical significance
 
 
 
