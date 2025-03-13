@@ -1,22 +1,37 @@
-# Project Description
+# **Online Store: prioritize hypotheses and launch an A/B test**  
 
-This file is designed to support the analysis of an A/B test aimed at increasing the revenue of an online store. The project involves working with three datasets.
-
+## **Project Description:**  
 The analysis will involve prioritizing hypotheses, calculating statistical significance, and visualizing key metrics such as conversion rates, average order size, and revenue. The project aims to derive data-driven insights that will help the marketing team decide on the next steps in optimizing the online store's performance.
 
-## Languages and Libraries Used
 
-### Python
-The primary programming language used for data analysis and visualization.
+## **Dataset:**  
+/datasets/hypotheses_us.csv 
+- Hypotheses — brief descriptions of the hypotheses
+- Reach — user reach, on a scale of one to ten
+- Impact — impact on users, on a scale of one to ten
+- Confidence — confidence in the hypothesis, on a scale of one to ten
+- Effort — the resources required to test a hypothesis, on a scale of one to ten. The higher the Effort value, the more resource-intensive the test.
+- Data used in the second part of the project
 
-### Pandas
-Used for data manipulation, cleaning, and preparation.
+ /datasets/orders_us.csv 
+- transactionId — order identifier
+- visitorId — identifier of the user who placed the order
+- date — of the order
+- revenue — from the order
+- group — the A/B test group that the user belongs to
+  
+/datasets/visits_us.csv 
+- date — date
+- group — A/B test group
+- visits — the number of visits on the date specified in the A/B test group specified
 
-### Matplotlib
-Utilized for visualizations of data trends and distributions.
+## **Tools Used:**  
+- Python (pandas, numpy, scipy, matplotlib)  
+- Exploratory Data Analysis (EDA)
+- ICE/RICE methods
 
-### SciPy
-Applied for statistical testing and calculating p-values to assess the significance of the A/B test results.
 
-### NumPy
-Used for numerical operations and handling arrays.
+
+
+
+
